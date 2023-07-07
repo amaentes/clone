@@ -1,12 +1,6 @@
 package ru.gb.lessons.interfaces.core.personal;
 
-import ru.gb.lessons.interfaces.core.clients.DoctorSpecialities;
 import ru.gb.lessons.interfaces.core.clients.NurseSpecialities;
-
-import java.time.LocalDate;
-import java.util.LinkedHashMap;
-
-import static ru.gb.lessons.interfaces.core.clients.DoctorSpecialities.THERAPIST;
 
 public class Nurse {
     protected int vetPersonID;

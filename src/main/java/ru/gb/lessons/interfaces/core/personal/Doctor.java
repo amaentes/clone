@@ -4,12 +4,7 @@ import ru.gb.lessons.interfaces.core.clients.DoctorSpecialities;
 import ru.gb.lessons.interfaces.core.clients.supports.Record;
 import ru.gb.lessons.interfaces.core.drugStore.Marker;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.Date;
-import java.util.LinkedHashMap;
-
-import static ru.gb.lessons.interfaces.core.clients.DoctorSpecialities.THERAPIST;
 
 public class Doctor implements Marker {
     protected int vetPersonID;

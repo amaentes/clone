@@ -1,10 +1,7 @@
 package ru.gb.lessons.interfaces.core;
 
 
-import org.w3c.dom.ls.LSOutput;
 import ru.gb.lessons.interfaces.core.clients.Animal;
-import ru.gb.lessons.interfaces.core.clients.Animals;
-import ru.gb.lessons.interfaces.core.clients.Runnable;
 import ru.gb.lessons.interfaces.core.clients.home.impl.*;
 import ru.gb.lessons.interfaces.core.clients.owners.Owner;
 import ru.gb.lessons.interfaces.core.clients.wild.impl.Duck;
@@ -13,22 +10,17 @@ import ru.gb.lessons.interfaces.core.clients.wild.impl.WildCat;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
 public class VetClinic {
     private static int clientsCounter;
-    private static int ownersCounter;
     private static List<Animal> animals;
-
-    private static List<Animal> owners;
 
     static {
         clientsCounter = 0;
-        ownersCounter = 0;
         animals = new ArrayList<>();
-        owners = new ArrayList<>();
+        new ArrayList<>();
     }
 
     public static void main(String[] args) {

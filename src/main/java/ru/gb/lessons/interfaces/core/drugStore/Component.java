@@ -21,4 +21,7 @@ public class Component {
     public int getPower() {
         return this.power;
     }
+    public String getName() {
+        return null;
+    }
 }
